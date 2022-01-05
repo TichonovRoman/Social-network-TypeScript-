@@ -6,46 +6,17 @@
     "n c"
     "f f";
     width: 1200px;
-
     grid-template-rows: 60px 1fr;
     grid-auto-columns: 2fr 10fr;
     grid-gap: 10px;
 }
 
-.header {
-    grid-area: h;
-    background-color: chocolate;
-    width: 1048px;
-}
 
-.footer {
-    grid-area: f;
-    background-color: chocolate;
-    width: 1048px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
 
-.header img {
-    height: 60px;
-    background-color: chocolate;
-}
 
-.nav {
-    grid-area: n;
-    background-color: burlywood;
-}
 
-.content {
-    grid-area: c;
-    background-color: bisque;
-    width: 840px;
 
-}
 
-.sunflowerImg {
-    width: 840px;
-    height: auto;
-}
+
+
+
