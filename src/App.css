@@ -3,7 +3,8 @@
     display: grid;
     grid-template-areas:
     "h h"
-    "n c";
+    "n c"
+    "f f";
     width: 1200px;
 
     grid-template-rows: 60px 1fr;
@@ -15,6 +16,16 @@
     grid-area: h;
     background-color: chocolate;
     width: 1048px;
+}
+
+.footer {
+    grid-area: f;
+    background-color: chocolate;
+    width: 1048px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
 .header img {
