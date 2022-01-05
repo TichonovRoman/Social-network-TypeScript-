@@ -13,10 +13,8 @@ const MyPosts: React.FC = () => {
                 <button>Add post</button>
             </div>
             <div className={s.posts}>
-                <Post/>
-                <Post/>
-                <Post/>
-                <Post/>
+                <Post message = "Hi, how are yuo?"/>
+                <Post message = "It`s my first post"/>
             </div>
         </div>
     )
